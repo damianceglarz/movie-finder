@@ -1,0 +1,36 @@
+.title{
+    margin: 20px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    
+    img{
+        margin-left: 10px;
+        max-height:200px;
+    }
+}
+
+.table {
+    padding: 10px 20px;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 5px #cccc;
+    table-layout: fixed;
+
+    tbody {
+        tr {
+            width: 100%;
+            word-break: break-word;
+            border-bottom: 1px solid #cccccc;
+
+            td {
+                padding: 15px ;
+                &:first-of-type {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

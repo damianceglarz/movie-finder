@@ -1,0 +1,15 @@
+.searchbox{
+    padding: 20px;
+    box-shadow: 0 0 5px #cecece;
+    display:flex;
+    align-items:center;
+
+    label{
+        font-weight: bold;
+        flex-shrink: 0; 
+    }
+
+    input{
+        margin: 0 10px;
+    }
+}

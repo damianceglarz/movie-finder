@@ -1,0 +1,16 @@
+.wrapper{
+    padding: 50px 0;
+
+    .no-movie{
+        margin-top:15px;
+        padding: 30px 0;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    .fetch-error{
+        @extend .no-movie;
+        color:#ff0000;
+
+    }
+}

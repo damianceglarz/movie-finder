@@ -1,0 +1,36 @@
+.button{
+    padding: 5px 15px;
+    font-weight:bold;
+    text-transform: uppercase;
+    border: 1px solid;
+    background: unset;
+    cursor:pointer;
+    border-radius: 3px;
+
+    &.success{
+        color:#1ad254;
+        border-color:#1ad254;
+
+        &:hover{
+            box-shadow: 0 0 5px #1ad254;
+        }
+    }
+
+    &.danger{
+        color:#ed1e1e;
+        border-color:#ed1e1e;
+
+        &:hover{
+            box-shadow: 0 0 5px #ed1e1e;
+        }
+    }
+
+    &.default{
+        color:#4a4a4a;
+        border-color:#ccc;
+
+        &:hover{
+            box-shadow: 0 0 5px #ccc;
+        }
+    }
+}
